@@ -1,1 +1,2 @@
-document.getElementById("demo").innerHTML = "My First JavaScript";
+var x = document.getElementById("demo");   // Get the element with id="demo"
+x.innerHTML = "red";   

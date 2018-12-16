@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		41402D1221C6CE2100C7A95E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41402D1121C6CE2100C7A95E /* AppDelegate.swift */; };
 		41402D1421C6CE2100C7A95E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41402D1321C6CE2100C7A95E /* ViewController.swift */; };
-		41402D1721C6CE2100C7A95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41402D1521C6CE2100C7A95E /* Main.storyboard */; };
+		41402D1721C6CE2100C7A95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41402D1521C6CE2100C7A95E /* Main.storyboard */; settings = {ASSET_TAGS = (web, ); }; };
 		41402D1921C6CE2400C7A95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41402D1821C6CE2400C7A95E /* Assets.xcassets */; };
 		41402D1C21C6CE2400C7A95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41402D1A21C6CE2400C7A95E /* LaunchScreen.storyboard */; };
+		41402D2421C6D2A400C7A95E /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 41402D2321C6D2A400C7A95E /* index.html */; };
+		41402D2621C6D5A100C7A95E /* css in Resources */ = {isa = PBXBuildFile; fileRef = 41402D2521C6D5A100C7A95E /* css */; };
+		41402D2821C6D84D00C7A95E /* js in Resources */ = {isa = PBXBuildFile; fileRef = 41402D2721C6D84C00C7A95E /* js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		41402D1821C6CE2400C7A95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41402D1B21C6CE2400C7A95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41402D1D21C6CE2400C7A95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41402D2321C6D2A400C7A95E /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		41402D2521C6D5A100C7A95E /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		41402D2721C6D84C00C7A95E /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		41402D1021C6CE2100C7A95E /* AddhtmlFile */ = {
 			isa = PBXGroup;
 			children = (
+				41402D2721C6D84C00C7A95E /* js */,
+				41402D2521C6D5A100C7A95E /* css */,
+				41402D2321C6D2A400C7A95E /* index.html */,
 				41402D1121C6CE2100C7A95E /* AppDelegate.swift */,
 				41402D1321C6CE2100C7A95E /* ViewController.swift */,
 				41402D1521C6CE2100C7A95E /* Main.storyboard */,
@@ -90,6 +99,9 @@
 		41402D0621C6CE2100C7A95E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					web,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Sourabh Tripathi";
@@ -122,7 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41402D2621C6D5A100C7A95E /* css in Resources */,
+				41402D2821C6D84D00C7A95E /* js in Resources */,
 				41402D1C21C6CE2400C7A95E /* LaunchScreen.storyboard in Resources */,
+				41402D2421C6D2A400C7A95E /* index.html in Resources */,
 				41402D1921C6CE2400C7A95E /* Assets.xcassets in Resources */,
 				41402D1721C6CE2100C7A95E /* Main.storyboard in Resources */,
 			);
